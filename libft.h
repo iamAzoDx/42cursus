@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vtouze <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: vtouze <vtouze@student.42perpignan.fr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/05 23:02:21 by vtouze            #+#    #+#             */
-/*   Updated: 2023/02/19 10:25:50 by vtouze           ###   ########.fr       */
+/*   Updated: 2023/03/03 15:32:12 by vtouze           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <bsd/string.h>
+# include <string.h>
 # include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>

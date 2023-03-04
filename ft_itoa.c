@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vtouze <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: vtouze <vtouze@student.42perpignan.fr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/10 21:47:26 by vtouze            #+#    #+#             */
-/*   Updated: 2023/02/14 19:22:06 by vtouze           ###   ########.fr       */
+/*   Updated: 2023/03/03 14:58:58 by vtouze           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,3 +60,16 @@ char	*ft_itoa(int n)
 		s[i - 2] = '-';
 	return (s);
 }
+
+/*On utilise ft_len pour determiner la longueur de la chaine de char
+necessaire pour stocker notre int
+On calcul la longueur de l'int en comptant le nombre de chiffres et on ajoute
+un signe negatif si il est present
+Ensuite onn alloue de la memoire avec Calloc
+la variable A est utilise  pour stocker le signe de l'int
+si n est negatif a = -1 sinon a = 1
+on initialise la variable nn a sa valeur absolue obtenue en multipliant n par a
+la boucle while sert a parcourir la variable nn afin de stocker dans la var s
+la boucle se termine quand nn est <= 9
+enfin si a = -1 un signe negatif est ajoute a i - 2
+la fonction itoa retourne un * vers la nouvelle string venant d'etre creer*/

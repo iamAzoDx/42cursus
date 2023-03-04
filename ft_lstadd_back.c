@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vtouze <vtouze@student.42.fr>              +#+  +:+       +#+        */
+/*   By: vtouze <vtouze@student.42perpignan.fr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/17 11:15:24 by vtouze            #+#    #+#             */
-/*   Updated: 2023/02/19 07:26:11 by vtouze           ###   ########.fr       */
+/*   Updated: 2023/02/22 07:44:46 by vtouze           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
- 
+
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	t_list	*last;
