@@ -6,7 +6,7 @@
 /*   By: vtouze <vtouze@student.42perpignan.fr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/05 23:02:21 by vtouze            #+#    #+#             */
-/*   Updated: 2023/03/03 15:32:12 by vtouze           ###   ########.fr       */
+/*   Updated: 2023/03/10 16:16:18 by vtouze           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 # define LIBFT_H
 
 # include <string.h>
-# include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
 
@@ -22,7 +21,7 @@ typedef struct s_list
 {
 	void					*content;
 	struct s_list			*next;
-}								t_list;
+}	t_list;
 
 int			ft_atoi(const char *nptr);
 int			ft_isalnum(int c);

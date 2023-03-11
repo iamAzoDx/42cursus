@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vtouze <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: vtouze <vtouze@student.42perpignan.fr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/05 21:11:37 by vtouze            #+#    #+#             */
-/*   Updated: 2023/02/11 22:35:33 by vtouze           ###   ########.fr       */
+/*   Updated: 2023/03/10 08:09:17 by vtouze           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,7 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+
+/*Memchr recherche les n octets de la zone memoire pointee par s,
+a la recherche de c
+*/

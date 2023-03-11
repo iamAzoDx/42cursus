@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vtouze <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: vtouze <vtouze@student.42perpignan.fr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/02 09:11:23 by vtouze            #+#    #+#             */
-/*   Updated: 2023/02/12 20:21:42 by vtouze           ###   ########.fr       */
+/*   Updated: 2023/03/10 16:13:19 by vtouze           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,3 +21,8 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
+
+/*int main (void)
+{
+    ft_putnbr_fd((int)ft_strlen("coucou"), 1);
+}*/
